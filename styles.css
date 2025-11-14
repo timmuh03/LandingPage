@@ -54,7 +54,8 @@ div.about {
     align-self: self-end;
  }
 
- button.about {
+ button.about, 
+button.cta-sign-up {
     background-color: #3882f6;
     color: #f9faf8;
     max-width: 100px;
@@ -83,9 +84,6 @@ div.about {
 
  /********************/
 
-.main-info {
-}
-
 h2.main-info {
     text-align: center;
     width: 100 vw;
@@ -113,3 +111,75 @@ h2.main-info {
 }
 
 /*****************************/
+
+.testimonial {
+    padding: 75px 0;
+    margin: auto;
+    background-color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 75px 200px;
+}
+
+quoteblock {
+    display: block;
+    margin-top: 10;
+}
+
+cite {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/******************************/
+
+.call-to-action {
+    background-color: #f9faf8;
+}
+
+.cta-box {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-flex-row {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 60%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-title, .cta-text {
+    color: #f9faf8;
+    margin: 0;
+}
+
+button.cta-sign-up {
+    border: solid 1px #f9faf8;
+    width: 100px;
+}
+
+/************************************/
+
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    margin: auto,0;
+}
+
