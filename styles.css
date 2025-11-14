@@ -46,11 +46,12 @@ div.about {
     max-width: 100vw;
     max-height: 400px;
     flex-basis: 200px;
-    padding: 100px 150px;
+    padding: 50px 100px;
 }
  #about-img {
     max-width: 400px;
     margin: 0 25px;
+    align-self: self-end;
  }
 
  button.about {
@@ -82,6 +83,33 @@ div.about {
 
  /********************/
 
- 
+.main-info {
+}
 
+h2.main-info {
+    text-align: center;
+    width: 100 vw;
+    color: #1f2937;
+    margin: 50px;
+}
 
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-img {
+    border-radius: 10px;
+    border: solid 2px #3882f6;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.main-img-txt {
+    width: 150px;
+    text-align: center;
+}
+
+/*****************************/
